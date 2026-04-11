@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AzureOpenAI", "AzureOpenAI\
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MySemanticKernelApp", "SemanticKernel\MySemanticKernelApp.csproj", "{09F04390-3C1F-4356-B67D-C20EE09C65FE}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CodeReviewAgent", "CodeReviewAgent\CodeReviewAgent\CodeReviewAgent.csproj", "{05B5D4CD-6C21-45F6-B756-115D364861CE}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{09F04390-3C1F-4356-B67D-C20EE09C65FE}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{09F04390-3C1F-4356-B67D-C20EE09C65FE}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{09F04390-3C1F-4356-B67D-C20EE09C65FE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{05B5D4CD-6C21-45F6-B756-115D364861CE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{05B5D4CD-6C21-45F6-B756-115D364861CE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{05B5D4CD-6C21-45F6-B756-115D364861CE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{05B5D4CD-6C21-45F6-B756-115D364861CE}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
